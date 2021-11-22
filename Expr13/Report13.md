@@ -88,7 +88,7 @@ None.
 
 4. Design the 74LS161 Counter chip according to its functional table given in the principle part and use **behavior description** codes. My implementation is as follows.
 
-   ```verilog
+```verilog
 module My74LS161(
        input wire CR, LD, CTP, CTT, CP,
        input wire [3:0] D,
